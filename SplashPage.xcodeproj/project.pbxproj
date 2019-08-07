@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E903885322FB1023007237E5 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = E903885222FB1023007237E5 /* User.swift */; };
+		E903885522FB1795007237E5 /* homePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = E903885422FB1795007237E5 /* homePage.swift */; };
 		E9837F0422FA657300B39A3C /* loginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9837F0322FA657300B39A3C /* loginViewController.swift */; };
 		FE545D2022F1F0D400B27473 /* Req2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE545D1F22F1F0D400B27473 /* Req2ViewController.swift */; };
 		FE545D2222F2128D00B27473 /* Req3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE545D2122F2128D00B27473 /* Req3ViewController.swift */; };
@@ -21,6 +23,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E903885222FB1023007237E5 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		E903885422FB1795007237E5 /* homePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = homePage.swift; sourceTree = "<group>"; };
 		E9837F0322FA657300B39A3C /* loginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = loginViewController.swift; sourceTree = "<group>"; };
 		FE545D1F22F1F0D400B27473 /* Req2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Req2ViewController.swift; sourceTree = "<group>"; };
 		FE545D2122F2128D00B27473 /* Req3ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Req3ViewController.swift; sourceTree = "<group>"; };
@@ -50,6 +54,8 @@
 		FEEC859422DCC6C000925C79 = {
 			isa = PBXGroup;
 			children = (
+				E903885422FB1795007237E5 /* homePage.swift */,
+				E903885222FB1023007237E5 /* User.swift */,
 				FE545D2922FA2F3700B27473 /* Default-568h@2x.png */,
 				FEEC859F22DCC6C000925C79 /* SplashPage */,
 				FEEC859E22DCC6C000925C79 /* Products */,
@@ -158,8 +164,10 @@
 				FEEC85A322DCC6C000925C79 /* viewcontroller.swift in Sources */,
 				FEEC85A122DCC6C000925C79 /* AppDelegate.swift in Sources */,
 				E9837F0422FA657300B39A3C /* loginViewController.swift in Sources */,
+				E903885522FB1795007237E5 /* homePage.swift in Sources */,
 				FE545D2222F2128D00B27473 /* Req3ViewController.swift in Sources */,
 				FE545D2022F1F0D400B27473 /* Req2ViewController.swift in Sources */,
+				E903885322FB1023007237E5 /* User.swift in Sources */,
 				FE545D2422F2184900B27473 /* Req4ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
